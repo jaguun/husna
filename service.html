@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #eaeaf2;
+        }
+
+        header {
+            background-color: #228B22;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+        background-color: #228B22;
+        color: white;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .content {
+            max-width: 900px;
+            margin: 30px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #228B22;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .service {
+            background: #e8f5e9;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .service img {
+            width: 100%;
+            max-width: 200px;
+            height: auto;
+            margin-bottom: 10px;
+            border-radius: 8px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #228B22;
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #1e7a1e;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">Little about what we provide</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Our Services</h1>
+    </header>
+
+    <div class="content">
+        <h2>What We Offer</h2>
+        <p>
+            At our agriculture platform, we provide world-class services to ensure the success and sustainability of your
+            farming ventures. From advanced technologies to personalized support, we’ve got you covered!
+        </p>
+
+        <div class="services">
+            <div class="service">
+                <img src="./image/g1.webp" alt="Modern Farm Equipment">
+                <p>Modern Farm Equipment Rentals</p>
+            </div>
+            <div class="service">
+                <img src="./image/premium_photo-1661962692059-55d5a4319814.avif" alt="Soil Testing">
+                <p>Crop and Soil Testing Services</p>
+            </div>
+            <div class="service">
+                <img src="./image/g2.jpg" alt="Market Access">
+                <p>Market Access and Business Development</p>
+            </div>
+            <div class="service">
+                <img src="./image/g3.jpg" alt="Farmer Training">
+                <p>Comprehensive Farmer Training Programs</p>
+            </div>
+            <div class="service">
+                <img src="./image/g4.webp" alt="Sustainable Farming">
+                <p>Sustainable Farming Advisory</p>
+            </div>
+            <div class="service">
+                <img src="./image/g5.jpg" alt="Supply Chain Management">
+                <p>Supply Chain Management Assistance</p>
+            </div>
+        </div>
+
+        <a href="index.html" class="btn">Back to Home</a>
+    </div>
+</body>
+</html>
